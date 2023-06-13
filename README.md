@@ -39,10 +39,11 @@ Para obter os arquivos e executar o programa, podem ser executados os seguintes 
 
 - Digite os comandos:
 
-
+    ```bash
     git init
 
     git clone https://github.com/KauanCalheiro/Prova_STW.git
+    ```
 
 <br/>
 
@@ -56,8 +57,9 @@ Para obter os arquivos e executar o programa, podem ser executados os seguintes 
 
 - Digite o comando no prompt da pasta;
 
-        
+    ```bash
     composer install
+    ```
 
 - Faça ajustes das configurações;
 - Crie um arquivo .env e configure o banco de dados;
@@ -71,19 +73,19 @@ Para obter os arquivos e executar o programa, podem ser executados os seguintes 
 
 - Após instalar as dependências necessárias e configurar o banco de dados execute no prompt da pasta;
 
-
+    ```bash
     php artisan migrate
     
     php artisan db:seed
-
+    ```
 
 - Com isso feito ja temos um valor exemplo no nosso banco de dados para consumirmos na página;
 
-
+    ```bash
     php artisan serve
+    ```
 
-
-- O servidor da api deve começar a rodar no seu computador agora
+- O servidor da api deve começar a rodar no seu computador agora;
 
 <br/>
 
@@ -97,21 +99,23 @@ Para obter os arquivos e executar o programa, podem ser executados os seguintes 
 
 - Digite o comando no prompt da pasta;
 
-
+    ```bash
     npm install
+    ```
 
+- Verifique no arquivo config.js se a url esta igual a do servidor da api;
 
-- Verifique no arquivo config.js se a url esta igual a do servidor da api
-
-
+    ```bash
     web-application\src\services\config.js
-    
+    ```
 
-- Após isso execute com um prompt dentro da pasta
+- Após isso execute com um prompt dentro da pasta;
 
-
+    ```bash
     npm start
-
+    ```
+    
+- Abra a aplicação pelo navegador;
 
 ## 🎨 Imagens
 
