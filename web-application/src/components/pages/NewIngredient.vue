@@ -6,7 +6,7 @@
 
                 <h2 class="mb-4">INGREDIENTE:</h2>
 
-                <label>INGREDIENTE ID: *</label>
+                <label>INGREDIENTE ID:</label>
                 <input class="form-control mt-2 mb-4" type="number" placeholder="Código" v-model="id">
 
                 <label>DESCRIÇÃO: *</label>
@@ -45,8 +45,9 @@ export default {
     methods: {
         async save(id, description, kg) {
             try {
-                await Ingredient.save(id, description, kg).then(response => {
+                await Ingredient.save(id, description, kg).then(() => {
                 alert('Item cadastrado com sucesso!');
+                window.location.href = '/ingredients';
             });
             } catch (error) {
                 alert('Ocorreu um erro ao cadastrar o ingrediente');

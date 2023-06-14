@@ -113,6 +113,7 @@ export default {
 
                 await Recipe.save(json).then(() => {
                     alert('Item cadastrado com sucesso!');
+                    window.location.href = '/recipes';
                 });
 
             } catch (error) {

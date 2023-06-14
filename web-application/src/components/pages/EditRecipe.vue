@@ -115,6 +115,7 @@ export default {
 
                 await Recipe.update(this.id, json).then(() => {
                     alert('Item atualizado com sucesso!');
+                    window.location.href = '/recipes';
                 })
             } catch (error) {
                 alert('Ocorreu um erro ao atualizar a receita');

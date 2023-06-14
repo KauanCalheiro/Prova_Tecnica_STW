@@ -54,8 +54,10 @@ export default {
 
                 console.log(json)
 
-                await Ingredient.put(this.id, json).then(response => {
+                await Ingredient.put(this.id, json).then(() => {
                     alert('Ingrediente cadastrado com sucesso!');
+                window.location.href = '/ingredients';
+
                 });
             } catch (error) {
                 alert('Ocorreu um erro ao atualizar o ingrediente');
