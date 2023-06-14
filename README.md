@@ -68,8 +68,15 @@ Para obter os arquivos e executar o programa, podem ser executados os seguintes 
       DB_HOST=127.0.0.1
       DB_PORT=3306
       DB_DATABASE={nome do seu banco de dados para a api}
-      DB_USERNAME=root
-      DB_PASSWORD=
+      DB_USERNAME={seu usuario}
+      DB_PASSWORD={sua senha}
+      
+- Caso tenha algum erro nesta etapa, verifique:
+    - Dados do banco de dados;
+    - Extensões do php.ini relacionadas ao MySql:
+        - extension=pdo_mysql
+        - extension=mysqli
+
 
 - Após instalar as dependências necessárias e configurar o banco de dados execute no prompt da pasta;
 
