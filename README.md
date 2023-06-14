@@ -42,7 +42,7 @@ Para obter os arquivos e executar o programa, podem ser executados os seguintes 
     ```bash
     git init
 
-    git clone https://github.com/KauanCalheiro/Prova_STW.git
+    git clone https://github.com/KauanCalheiro/Prova_Tecnica_STW.git
     ```
 
 <br/>
