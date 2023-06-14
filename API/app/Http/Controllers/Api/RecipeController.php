@@ -62,8 +62,6 @@ class RecipeController extends Controller
             DB::table('recipes')
                 ->where('id', '=', $id)
                 ->update(['recipe' => $request['recipe']['0']['recipe']]);
-        } else {
-            return 'vazio';
         }
 
         $recipeIngredients = DB::table('recipes_ingredients')
