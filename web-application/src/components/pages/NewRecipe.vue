@@ -4,7 +4,7 @@
 
             <div class="form-group mb-4 mt-3">
                 <h2 class="mb-4">RECEITA:</h2>
-                <label for="exampleInputEmail1">RECEITA ID: *</label>
+                <label for="exampleInputEmail1">RECEITA ID:</label>
                 <input class="form-control mb-2" type="number" placeholder="Código" v-model="idRecipe">
 
                 <label>Receita: *</label>
